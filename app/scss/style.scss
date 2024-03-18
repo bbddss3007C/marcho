@@ -24,7 +24,7 @@
 
   &__list-link {
     color: $title;
-    padding-bottom: 3px;
+    padding-bottom: 0 2px 3px;
     @extend %roboto-400;
 
     &:hover {
