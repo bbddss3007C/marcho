@@ -399,23 +399,51 @@
   }
 }
 
+.video-fashion {
+  background-color: $bg;
+  background-image: url('../images/decor/pattern.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 125px 0;
 
+  &__inner {
+    display: flex;
+  }
 
+  &__popup {
+    margin-right: 60px;
+    height: 480px;
+    max-width: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  &__content {
+    max-width: 570px;
+  }
+  &__subtitle{
+    color: $accent;
+    font-size: 22px;
+    padding-top: 75px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  &__title{
+    text-align-last: left;
+  }
+  &__text{
+    margin-bottom: 55px;
+  }
+  &__link{
+    @extend %btn;
+  }
+}
 
 
 @import 'media';
